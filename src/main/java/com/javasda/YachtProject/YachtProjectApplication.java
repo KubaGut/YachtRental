@@ -47,11 +47,11 @@ public class YachtProjectApplication implements CommandLineRunner {
 	// Propulsion engine, sail, hybrid
 	// HullType Monohull, Multihull
 		mainService.addYacht("yacht1", "login1", 2000,
-				6, "engine", "Monohull", "opis1","plik1" );
+				6, "engine", "Monohull", "opis1","jacht1.jpg" );
 		mainService.addYacht("yacht2", "login2", 3000,
-				4, "sail", "Monohull", "opis2", "plik2");
+				4, "sail", "Monohull", "opis2", "yacht2.jpg");
 		mainService.addYacht("yacht3", "login1", 4000,
-				8, "hybrid", "Multihull", "opis3", "plik3");
+				8, "hybrid", "Multihull", "opis3", "jacht3.jpg");
 
 		Calendarr book = new Calendarr(LocalDate.of(2018, 05, 22)
 				, mainService.findYachByName("yacht1"));

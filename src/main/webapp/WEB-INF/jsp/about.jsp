@@ -44,7 +44,7 @@
     <h2>Hello</h2>
     <h3><em>The project has been created by four group members while Java programming course.</em></h3>
 
-        <img id="helloPic"src="img/hello.gif" alt="hello everyone" >
+
 </div>
 <footer class="container-fluid">
     <div>Thanks for being with us !  @All rights reserved </div>
